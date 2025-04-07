@@ -49,7 +49,7 @@ const UpcomingTrips = () => {
     <div className="max-w-6xl font-custom3 mx-auto px-4 mb-8 mt-[-100px]  md:py-8">
       <h2 className="text-4xl font-bold mb-6 font-custom2">Upcoming Trips</h2>
 
-      <div className="relative flex items-center">
+      <div className="relative flex items-center ">
         {/* Left Arrow */}
         <button
           className="hidden md:flex absolute hover:scale-[110%] transition-transform duration-300 
@@ -60,7 +60,7 @@ const UpcomingTrips = () => {
         </button>
 
         {/* Trip Cards (Desktop) */}
-        <div className="hidden md:block overflow-hidden py-1 w-full">
+        <div className="hidden md:block overflow-hidden py-1 w-full h-[450px]">
           <div
             className="flex space-x-6 transition-transform duration-500 ease-in-out"
             style={{
@@ -97,7 +97,7 @@ const UpcomingTrips = () => {
         </div>
 
         {/* Trip Card (Mobile) */}
-        <div className="md:hidden overflow-hidden w-full">
+        <div className="md:hidden overflow-hidden h-[400px] w-full">
           <div
             className="flex transition-transform duration-500 ease-in-out"
             style={{

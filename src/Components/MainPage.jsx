@@ -38,7 +38,7 @@ const MainPage = () => {
         <h1 className="md:text-6xl text-5xl font-extrabold text-white drop-shadow-[6px_6px_0px_rgba(0,0,0,0.7)]">
           BEGIN YOUR JOURNEY
         </h1>
-        <button className="mt-4 px-6 flex items-center py-2 border border-white rounded-full shadow-md md:hover:bg-[#385277] bg-[#385277] md:bg-transparent ">
+        <button className="mt-4 px-6 flex items-center py-2 border border-white rounded-full shadow-md hover:scale-[110%] md:hover:bg-[#385277] bg-[#385277] md:bg-transparent ">
           LATEST TOURS <IoIosArrowForward className="ml-1" />
         </button>
         <p className="m-4 max-w-[800px] md:text-lg">
