@@ -9,10 +9,13 @@ export default {
       fontFamily:{
         custom: ["Russo One", "sans-serif"],
         custom2:["Montserrat", "sans-serif"],
-        custom3:["Jost", "sans-serif"]
+        custom3:["Jost", "sans-serif"],
+        
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide') // <-- add this plugin
+  ],
 }
 
